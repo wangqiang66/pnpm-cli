@@ -1,0 +1,33 @@
+{
+    "name": "@ddjf/npm-vue-cli",
+    "version": "1.0.0",
+    "description": "cli for install publish; this.is only apply in a template of install publish",
+    "author": {
+        "email": "wangqiang@ddjf.com.cn",
+        "name": "wangqiang"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "~2.4.1",
+        "commander": "~2.17.0",
+        "ansi-styles": "^3.2.1",
+        "download-git-repo": "^1.0.2",
+        "rimraf": "^2.6.2",
+        "inquirer": "^6.0.0",
+        "semver": "^5.5.0",
+        "request": "^2.87.0",
+        "ora": "^3.0.0",
+        "metalsmith":"^2.3.0",
+        "minimatch": "^3.0.0",
+        "handlebars":"^4.0.11",
+        "consolidate":"^0.15.1",
+        "multimatch":"^2.1.0",
+        "async": "^2.4.0",
+        "read-metadata":"^1.0.0",
+        "validate-npm-package-name":"^3.0.0",
+        "user-home":"^2.0.0"
+    },
+    "bin": {
+        "pnpm": "bin/scion"
+    }
+}
